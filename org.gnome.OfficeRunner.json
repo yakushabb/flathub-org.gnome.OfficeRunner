@@ -34,7 +34,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/office-runner.git",
-                    "commit": "1.0.3"
+                    "commit": "15193aa95b2707619e4b54f7ff6b1f95b721f477"
                 }
             ]
         }
