@@ -18,6 +18,17 @@
     ],
     "modules": [
         {
+            "name": "gnome-common",
+            "cleanup": "0",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-common.git",
+                    "commit": "3f52961bcc8828e33535466d60ca3edcdf5175c6"
+                }
+            ]
+        },
+        {
             "name": "office-runner",
             "sources": [
                 {
