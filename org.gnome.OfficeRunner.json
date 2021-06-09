@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.OfficeRunner",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "office-runner",
     "finish-args": [
@@ -18,12 +18,23 @@
     ],
     "modules": [
         {
+            "name": "gnome-common",
+            "cleanup": "0",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-common.git",
+                    "commit": "3f52961bcc8828e33535466d60ca3edcdf5175c6"
+                }
+            ]
+        },
+        {
             "name": "office-runner",
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/office-runner.git",
-                    "commit": "1.0.3"
+                    "commit": "15193aa95b2707619e4b54f7ff6b1f95b721f477"
                 }
             ]
         }
